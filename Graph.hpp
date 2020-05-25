@@ -192,7 +192,7 @@ public:
         std::vector<bool> mVisitedVertices;
         collection_type mCollection;
 
-        std::size_t mCollectionTop()
+        std::size_t mCollectionTop()const
         {
             if constexpr (BFS)
             {
